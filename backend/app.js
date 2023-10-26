@@ -19,7 +19,7 @@ import proceedErrors from './middlewares/proceedErrors.js';
 import { requestLogger, errorLogger } from './middlewares/logger.js';
 
 // установим порт для запуска сервера, получим секретный ключ
-const { PORT = 3001 } = process.env;
+const { PORT = 3000 } = process.env;
 // список разрешенных адресов
 const corseAllowedOrigins = [
   'http://mestobyblaydasik.nomoredomains.club',
