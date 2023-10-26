@@ -1,0 +1,34 @@
+.account__input {
+  margin: 0 auto;
+  padding: 0 0 13px;
+  width: 358px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.214;
+  background-color: #000000;
+  color: #FFFFFF;
+  border: none;
+  border-bottom: 2px solid #CCCCCC;
+  outline: none;
+}
+
+.account__input::placeholder {
+  color: #CCCCCC;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.214;
+}
+
+@media screen and (max-width: 1023px) {
+  .account__input {
+    width: 286px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .account__input {
+    width: 260px;
+  }
+}

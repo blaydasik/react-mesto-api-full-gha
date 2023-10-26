@@ -1,0 +1,8 @@
+.card__button-like_active {
+  background-image: url(../../../../images/button-like_active.svg);
+}
+
+.card__button-like_active:hover {
+  /*для мобильной версии уберем эффект наведения*/
+  opacity: 1;
+}

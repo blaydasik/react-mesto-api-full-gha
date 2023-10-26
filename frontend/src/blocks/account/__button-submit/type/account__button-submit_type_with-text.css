@@ -1,0 +1,15 @@
+.account__button-submit_type_with-text {
+  margin: 176px auto 15px;
+}
+
+@media screen and (max-width: 1023px) {
+  .account__button-submit_type_with-text {
+    margin-bottom: 17px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .account__button-submit_type_with-text {
+    margin: 173px auto 20px;
+  }
+}

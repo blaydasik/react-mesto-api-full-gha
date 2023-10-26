@@ -1,0 +1,16 @@
+.popup__image-info {
+  margin: 60px auto 32px; 
+  display: block;
+}
+
+@media screen and (max-width: 1023px) {
+  .popup__image-info {
+    margin: 55px auto 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popup__image-info {
+    margin: 50px auto 40px;
+  }
+}

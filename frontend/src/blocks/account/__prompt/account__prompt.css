@@ -1,0 +1,32 @@
+.account__prompt {
+  margin: 0 auto 80px;
+  padding: 0;
+  width: 358px;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.214;
+  text-align: center; 
+  text-decoration: none;
+  display: block;
+}
+
+.account__prompt:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 1023px) {
+  .account__prompt {
+    width: 286px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .account__prompt {
+    margin-bottom: 40px;
+    width: 260px;
+  }
+}

@@ -1,0 +1,27 @@
+.card {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 42px;
+  padding: 0;
+  margin: 0;
+  justify-self: end;
+  position: relative;
+}
+
+@media screen and (max-width: 879px) {
+  .card:nth-child(2n) {
+    justify-self: start;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .card {
+    justify-self: center;
+  }
+  .card:nth-child(2n) {
+    justify-self: center;
+  }
+}

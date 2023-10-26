@@ -1,0 +1,31 @@
+.header__logo {
+  margin: 28px 0 41px 0;
+  padding: 0;
+  width: 142px;
+  height: 33px;
+  max-height: 74px;/*чтобы при отсутствии карточек header не растягивался*/
+  display: block;
+  background-image: url(../../../images/logo/logo.svg);
+  background-size: cover;
+  transition: background-image .5s ease;
+  grid-area: basic;
+}
+
+.header__logo:hover {
+  background-image: url(../../../images/logo/logo-black.svg);
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    margin-left: 27px;
+    width: 104px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .header__logo {
+    max-height: 56px;/*чтобы при отсутствии карточек header не растягивался*/
+    margin-bottom: 32px;
+  }
+}

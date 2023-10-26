@@ -1,0 +1,23 @@
+.header__button-exit {
+  margin-top: 28px;
+  padding: 0;
+  height: fit-content;
+  cursor: pointer;
+  color: #A9A9A9;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.222;
+  border: none;
+  background-color: transparent;
+}
+
+.header__button-exit:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 619px) {
+  .header__button-exit {
+    margin: 18px 0 0 0;
+  }
+}

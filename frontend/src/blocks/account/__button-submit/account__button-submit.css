@@ -1,0 +1,46 @@
+.account__button-submit {
+  margin: 176px auto 112px;
+  padding: 0;
+  width: 358px;
+  height: 50px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.222;
+  text-align: center;
+  color: #000000;
+  transition: opacity .5s ease;
+}
+
+.account__button-submit:disabled {
+  opacity: .5;
+  pointer-events: none;
+  user-select: none;
+  cursor: auto;
+}
+
+.account__button-submit:hover {
+  opacity: .85;
+}
+
+@media screen and (max-width: 1023px) {
+  .account__button-submit {
+    width: 286px;
+    height: 46px;
+    margin-bottom: 89px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .account__button-submit {
+    margin: 173px auto 77px;
+    width: 260px;
+    font-size: 16px;
+    line-height: 1.187;
+  }
+}
