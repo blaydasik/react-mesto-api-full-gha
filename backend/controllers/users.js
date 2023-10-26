@@ -144,7 +144,6 @@ export function updateAvatar(req, res, next) {
 // обработчик залогинивания
 export function login(req, res, next) {
   const { email, password } = req.body;
-  console.log(`email=${email}, password=${password}`)
   return User.findUserByCredentials(email, password)
     .then((user) => {
       console.log(`user=${user}`)
